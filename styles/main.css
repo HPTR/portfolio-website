@@ -37,6 +37,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    justify-content: space-around;
     padding: 20px 10px;
     height: 80vh;
     width: 90vw;
@@ -52,4 +53,20 @@
     color: #272643;
     font-size: 4em;
   }
+  .landing__button {
+    box-shadow: 5px 5px #272643;
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 80%;
+    height: 10%;
+    justify-self: flex-end;
+  }
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BAE8E8;
+  border: 1px solid #272643;
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
