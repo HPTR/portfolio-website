@@ -1,1 +1,29 @@
 // Reusable components (buttons/navbars/cards)
+@use "./base" as *;
+
+// iPhone 13 Pro Max
+
+@media only screen and (max-width: 576px) {
+
+        .navbar {
+            
+            @include flexCenter();
+            justify-content: space-between;
+            padding: 20px;
+
+            &__logo-text {
+                font-size: 1.8em;
+                color: $secondary-color;
+            }
+
+            &__logo {
+                color:$primary-color;
+            }
+
+            &__links-list {
+                display: none;
+            }
+
+        }
+
+    }
