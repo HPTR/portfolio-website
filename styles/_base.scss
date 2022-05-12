@@ -1,8 +1,15 @@
 // Resets, variables, mixins etc.
+
+// Font Import
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+// Global Reset
 * {
     margin: 0;
     padding: 0;
 }
+
+// Variables
 
 $primary-color: #BAE8E8;
 $secondary-color: #272643;
