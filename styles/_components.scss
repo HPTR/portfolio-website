@@ -55,6 +55,15 @@
             color: $secondary-color;
             font-size: 4em;
         }
+
+        &__button {
+            box-shadow: 5px 5px $secondary-color;
+            font-size: 1.25em;
+            font-weight: bold;
+            width: 80%;
+            height: 10%;
+            justify-self: flex-end;
+        }
     }
 
 
