@@ -8,10 +8,10 @@
   body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
     padding: 0vw 2.5vw;
-    width: 95vw;
   }
 
   .navbar {
@@ -46,7 +46,6 @@
   .landing__sub-welcome {
     color: #8C9CB1;
     font-size: 1.25em;
-    align-self: flex-start;
     -webkit-text-stroke: 1px #000000;
   }
   .landing__main-welcome {
@@ -62,16 +61,32 @@
     justify-self: flex-end;
   }
 
+  .technical-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+  }
   .technical-skills__title {
-    font-size: 1.3em;
+    font-size: 2em;
   }
   .technical-skills__list {
     list-style-type: none;
-    color: #BAE8E8;
-    font-size: 1.5em;
     display: grid;
-    grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
-    height: 100vh;
+    grid-template: repeat(3, 200px)/30vw 30vw 30vw;
+  }
+  .technical-skills__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3em;
+  }
+  .technical-skills__logo {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #BAE8E8;
   }
 }
 .button {
