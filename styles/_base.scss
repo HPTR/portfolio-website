@@ -11,6 +11,8 @@ $landing-page-background-color: #F7FAFA;
 $black: #000000;
 $white: #FFFFFF;
 
+$primary-font: 'Roboto', sans-serif;
+
 @mixin flexCenter() {
     display: flex;
     justify-content: center;
