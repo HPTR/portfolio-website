@@ -10,6 +10,8 @@
     flex-direction: column;
     align-items: center;
     font-family: "Roboto", sans-serif;
+    padding: 0vw 2.5vw;
+    width: 95vw;
   }
 
   .navbar {
@@ -17,9 +19,8 @@
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
     height: 10vh;
-    width: 90vw;
+    width: 100%;
   }
   .navbar__logo-text {
     font-size: 1.8em;
@@ -38,9 +39,8 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px 10px;
+    padding: 0px 10px;
     height: 80vh;
-    width: 90vw;
     background-color: #F7FAFA;
   }
   .landing__sub-welcome {
@@ -60,6 +60,18 @@
     width: 80%;
     height: 10%;
     justify-self: flex-end;
+  }
+
+  .technical-skills__title {
+    font-size: 1.3em;
+  }
+  .technical-skills__list {
+    list-style-type: none;
+    color: #BAE8E8;
+    font-size: 1.5em;
+    display: grid;
+    grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+    height: 100vh;
   }
 }
 .button {
