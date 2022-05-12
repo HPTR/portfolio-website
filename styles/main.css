@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .navbar__logo-text {
+    font-size: 1.8em;
+    color: #272643;
+  }
+  .navbar__logo {
+    color: #BAE8E8;
+  }
+  .navbar__links-list {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
