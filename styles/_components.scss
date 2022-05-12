@@ -11,25 +11,28 @@
         align-items: center;
         font-family: $primary-font;
     }
-        .navbar {
-            
-            @include flexCenter();
-            justify-content: space-between;
-            padding: 20px;
 
-            &__logo-text {
-                font-size: 1.8em;
-                color: $secondary-color;
-            }
+    .navbar {
+        
+        @include flexCenter();
+        justify-content: space-between;
+        padding: 0px 20px;
+        height: 10vh;
+        width: 90vw;
 
-            &__logo {
-                color:$primary-color;
-            }
-
-            &__links-list {
-                display: none;
-            }
-
+        &__logo-text {
+            font-size: 1.8em;
+            color: $secondary-color;
         }
+
+        &__logo {
+            color:$primary-color;
+        }
+
+        &__links-list {
+            display: none;
+        }
+
+    }
 
     }
