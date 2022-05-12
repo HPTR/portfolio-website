@@ -1,15 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
 @media only screen and (max-width: 576px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+
   .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px 20px;
+    height: 10vh;
+    width: 90vw;
   }
   .navbar__logo-text {
     font-size: 1.8em;
@@ -20,5 +30,26 @@
   }
   .navbar__links-list {
     display: none;
+  }
+
+  .landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+    height: 80vh;
+    width: 90vw;
+    background-color: #F7FAFA;
+  }
+  .landing__sub-welcome {
+    color: #8C9CB1;
+    font-size: 1.25em;
+    align-self: flex-start;
+    -webkit-text-stroke: 1px #000000;
+  }
+  .landing__main-welcome {
+    color: #272643;
+    font-size: 4em;
   }
 }/*# sourceMappingURL=main.css.map */
