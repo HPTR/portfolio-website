@@ -67,6 +67,23 @@
         }
     }
 
+    .technical-skills {
+
+        &__title {
+            font-size: 1.3em;
+        }
+
+        &__list {
+            list-style-type: none;
+            color: $primary-color;
+            font-size: 1.5em;
+            display: grid;
+            grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+            height: 100vh;
+        }
+
+    }
+
 
 
 }
