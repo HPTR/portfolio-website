@@ -8,10 +8,10 @@
     body {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-content: center;
+        justify-content: center;
         font-family: $primary-font;
         padding: 0vw 2.5vw;
-        width: 95vw;
     }
 
     .navbar {
