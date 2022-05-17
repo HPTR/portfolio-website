@@ -208,4 +208,39 @@
         text-decoration: none;
     }
 }
+
+@media only screen and (min-width: 576px) {
+    .technical-skills {
+
+        @include flexCenter();
+        margin: 50px 0px;
+        flex-wrap: wrap;
+
+        &__title {
+            font-size: 2em;
+            width: 100%;
+            text-align: center;
+        }
+
+        &__list {
+            @include flexCenter();
+            width: 100%;
+            list-style-type: none;
+            justify-content: space-evenly;
+
+        }
+
+        &__item {
+            @include flexCenter();
+            flex-direction: column;
+            font-size: 1.2em;
+        }
+
+        &__logo {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            color: $primary-color;
+        }
+
+    }
 }
