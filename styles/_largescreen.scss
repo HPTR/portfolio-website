@@ -161,7 +161,7 @@
   
       &__links {
         @include flexCenter();
-        justify-content: space-between;
+        justify-content: space-evenly;
         width: 100%;
       }
   
@@ -217,7 +217,7 @@
         @include flexCenter();
         margin: 0px 20px;
         background-color: $primary-color;
-        border-radius: 30px;
+        border-radius: 50%;
         width: 50px;
         height: 50px;
         text-align: center;
@@ -225,13 +225,7 @@
   
       &__link {
         text-decoration: none;
+        color: $paragraph-color;
       }
-    }
-  
-    .button {
-      @include flexCenter();
-      background-color: $primary-color;
-      border: 1px solid $secondary-color;
-      border-radius: 10px;
     }
   }
