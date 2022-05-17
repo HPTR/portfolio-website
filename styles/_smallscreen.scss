@@ -166,7 +166,7 @@
     @include flexCenter();
     flex-direction: column;
     color: $primary-color;
-    background-color: black;
+    background-color: $black;
     height: 25vh;
     justify-content: space-evenly;
     margin-top: 20px;
