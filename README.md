@@ -15,3 +15,7 @@ Build a single page website, modelled after a template design provided by one of
   - Use the BEM class naming convention
   - Take a mobile first approach
   - Make at least 25 commits
+
+## You can view the GitHub Pages deployment here:
+
+https://hptr.github.io/portfolio-website/
