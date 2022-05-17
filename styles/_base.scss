@@ -9,6 +9,32 @@
     padding: 0;
 }
 
+//Global body styling
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: $primary-font;
+}
+
+//Global Button Styling
+
+  
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BAE8E8;
+    border: 1px solid #272643;
+    border-radius: 10px;
+    height: 10%;
+    padding: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
 // Variables
 
 $primary-color: #BAE8E8;

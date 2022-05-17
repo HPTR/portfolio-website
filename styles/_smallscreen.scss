@@ -1,16 +1,8 @@
-// Reusable components (buttons/navbars/cards)
 @use "./base" as *;
 
-// Mobile and Tablet Styling
+// Mobile - Tablet Styling
 
 @media only screen and (max-width: 768px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    font-family: $primary-font;
-  }
 
   .navbar {
     @include flexCenter();
@@ -92,6 +84,15 @@
       font-size: 3.5em;
       margin-bottom: 15px;
       color: $primary-color;
+    }
+  }
+
+  .projects-container {
+    @include flexCenter();
+    flex-direction: column;
+
+    &__title {
+      font-size: 2em;
     }
   }
 
@@ -186,10 +187,12 @@
       width: 50px;
       height: 50px;
       text-align: center;
+      color: $black;
     }
 
     &__link {
       text-decoration: none;
+      color: $paragraph-color
     }
   }
 
@@ -198,14 +201,5 @@
     background-color: $primary-color;
     border: 1px solid $secondary-color;
     border-radius: 10px;
-  }
-
-  .projects-container {
-    @include flexCenter();
-    flex-direction: column;
-
-    &__title {
-      font-size: 2em;
-    }
   }
 }

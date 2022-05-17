@@ -1,15 +1,8 @@
 @use "./base" as *;
 
-// Laptop+ Styling
+// Tablet - Laptop+ Styling
 
 @media only screen and (min-width: 769px) {
-    body {
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: center;
-      font-family: $primary-font;
-    }
   
     .navbar {
       @include flexCenter();
@@ -241,17 +234,4 @@
       border: 1px solid $secondary-color;
       border-radius: 10px;
     }
-  }
-  
-  button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #BAE8E8;
-    border: 1px solid #272643;
-    border-radius: 10px;
-    height: 10%;
-    padding: 8px;
-    font-size: 1.1em;
-    cursor: pointer;
   }
