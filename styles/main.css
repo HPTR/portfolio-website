@@ -130,7 +130,7 @@
 }
 .project__description {
   margin-bottom: 5%;
-  color: lightgray;
+  color: #8C9CB1;
 }
 .project__links {
   display: flex;
@@ -153,4 +153,83 @@
 .about__title {
   padding: 20% 0% 10% 0%;
   font-size: 3em;
+}
+.about__image {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.about__info {
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin: 20px 10px;
+  color: #8C9CB1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #BAE8E8;
+  background-color: black;
+  height: 25vh;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  list-style-type: none;
+  text-decoration: none;
+}
+.footer__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+  background-color: #BAE8E8;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.footer__link {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 576px) {
+  .technical-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+  }
+  .technical-skills__title {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+  .technical-skills__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-evenly;
+  }
+  .technical-skills__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2em;
+  }
+  .technical-skills__logo {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #BAE8E8;
+  }
 }/*# sourceMappingURL=main.css.map */
