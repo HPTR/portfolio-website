@@ -164,4 +164,18 @@
         padding: 20% 0% 10% 0%;
         font-size: 3em;
     }
+
+    &__image {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    &__info {
+        font-size: 1.2em;
+        line-height: 1.7em;
+        margin: 20px 10px;
+        color: $paragraph-color
+    }
+}
+
 }
