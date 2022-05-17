@@ -13,14 +13,14 @@
 
     <!-- Navbar -->
 
-    <nav class="navbar">
+    <nav class="navbar" id="Home">
         <h1 class="navbar__logo-text"><i class="navbar__logo fa-solid fa-code"></i> Hugo Reed</h1>
         <i class="navbar__mobile-menu fa-solid fa-bars fa-2x"></i>
         <ul class="navbar__links-list">
-            <li class="navbar__link"><a>Home</a></li>
-            <li class="navbar__link"><a>About</a></li>
-            <li class="navbar__link"><a>Projects</a></li>
-            <li class="navbar__link"><button>Get in Touch</button></li>
+            <li class="navbar__link"><a href="#home">Home</a></li>
+            <li class="navbar__link"><a href="#about">About</a></li>
+            <li class="navbar__link"><a href="#projects">Projects</a></li>
+            <li class="navbar__link button navbar__button"><button onclick="window.location.href='#contact'">Get in Touch</button></li>
         </ul>
     </nav>
 
@@ -38,6 +38,7 @@
 
     <div class="technical-skills">
         <h3 class="technical-skills__title">Technical Skills</h3>
+        <p class="technical-skills__description">Maecenas accumsan tincidunt id et in ut diam sit. Metus, nec, augue urna gravida nisl, tortor sapien nec sollicitudin.</p>
         <ul class="technical-skills__list">
             <li class="technical-skills__item"><i class="technical-skills__logo fa-brands fa-git-alt"></i>Git</li>
             <li class="technical-skills__item"><i class="technical-skills__logo fa-brands fa-html5"></i>HTML5</li>
@@ -53,7 +54,7 @@
 
     <!-- Projects -->
 
-    <div class="projects-container">
+    <div class="projects-container" id="projects">
         <h3 class="projects-container__title">My Projects</h3>
         <div class="project">
             <img src="./images/project-img.png" class="project__image">
@@ -124,15 +125,15 @@
 
     <!-- About Me -->
     
-    <div class="about">
+    <div class="about" id="about">
         <h3 class="about__title">About Me</h3>
         <img src="./images/IMG_1744.jpeg" class="about__image">
-        <p class="about__info">Nulla ac praesent tempor, orci sit nunc eget. Aliquam urna nunc, viverra sed tortor non. Id at pellentesque mauris at tincidunt venenatis urna mus. Sodales pretium tempus tincidunt tellus in imperdiet. Integer fames maecenas amet, consequat. Et cursus gravida enim lorem urna, vivamus pulvinar porttitor. Ultrices neque nec feugiat ullamcorper ultricies ante sagittis commodo. <br> Nunc malesuada amet et eget consectetur sit. Nibh in ut diam nulla sed porttitor et. At neque tellus convallis urna, sodales neque. In enim auctor diam nunc duis rutrum adipiscing pellentesque eu. In sollicitudin neque dictum neque proin pretium ante. Ac bibendum vestibulum ullamcorper pellentesque scelerisque. Neque senectus eu dictum ultricies tellus nisl eget sem libero. Eu sit quis vestibulum donec cras elementum.</p>
+        <p class="about__info">Nulla ac praesent tempor, orci sit nunc eget. Aliquam urna nunc, viverra sed tortor non. Id at pellentesque mauris at tincidunt venenatis urna mus. Sodales pretium tempus tincidunt tellus in imperdiet. Integer fames maecenas amet, consequat. Et cursus gravida enim lorem urna, vivamus pulvinar porttitor. Ultrices neque nec feugiat ullamcorper ultricies ante sagittis commodo. <br> <br> Nunc malesuada amet et eget consectetur sit. Nibh in ut diam nulla sed porttitor et. At neque tellus convallis urna, sodales neque. In enim auctor diam nunc duis rutrum adipiscing pellentesque eu. In sollicitudin neque dictum neque proin pretium ante. Ac bibendum vestibulum ullamcorper pellentesque scelerisque. Neque senectus eu dictum ultricies tellus nisl eget sem libero. Eu sit quis vestibulum donec cras elementum.</p>
     </div>
 
     <!-- Footer -->
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <ul class="footer__list">
             <li class="footer__item"><a class="footer__link" href=""><i class="fa-brands fa-github"></i></a></li>
             <li class="footer__item"><a class="footer__link" href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
