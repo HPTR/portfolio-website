@@ -162,7 +162,7 @@
     align-items: center;
     flex-direction: column;
     color: #BAE8E8;
-    background-color: black;
+    background-color: #000000;
     height: 25vh;
     justify-content: space-evenly;
     margin-top: 20px;
@@ -373,12 +373,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
   }
   .project__link {
     font-size: 1.2em;
-    margin-right: 50px;
   }
 
   .about {
@@ -412,7 +411,7 @@
     align-items: center;
     flex-direction: column;
     color: #BAE8E8;
-    background-color: black;
+    background-color: #000000;
     height: 25vh;
     justify-content: space-evenly;
     margin-top: 20px;
